@@ -1,14 +1,5 @@
 # Atividade React — useEffect, Consumo de API e Rotas
 
-## Como rodar
-
-```bash
-npm install
-npm run dev
-```
-
-Depois abra o endereço que aparecer no terminal (geralmente `http://localhost:5173`).
-
 ## O que está implementado
 
 - **Rotas** (`react-router-dom`): Home, Usuários, Alunos e Sobre, navegáveis pelo menu sem recarregar a página.
@@ -20,20 +11,3 @@ Depois abra o endereço que aparecer no terminal (geralmente `http://localhost:5
   - trata os estados de carregamento (`loading`) e erro (`erro`).
 - **`/alunos`** — prática de `useState` do segundo material: adicionar nomes a uma lista e mostrar mensagem quando ela está vazia.
 
-## Estrutura
-
-```
-src/
- ├─ components/
- │   ├─ Menu.jsx
- │   ├─ SearchBar.jsx
- │   ├─ UserList.jsx
- │   └─ ListaAlunos.jsx
- ├─ pages/
- │   ├─ Home.jsx
- │   ├─ Alunos.jsx
- │   └─ Sobre.jsx
- ├─ App.jsx
- ├─ main.jsx
- └─ App.css
-```
